@@ -20,18 +20,19 @@
             <img src="images/dice1.png" id="check1">
         </div>
         <div class="dice">
-            <p>Player 1</p>
+            <p>Player 2</p>
             <img src="images/dice1.png" id="check1">
         </div>
         <div> 
-             <button >Lets Try</button>
+             <button onclick="ludogame()" >Lets Try</button>
         </div>
     </div>
    <script>
+       ludogame=()=>{
        const play1= Math.floor(Math.random() * 6)+1;
        const playdice =`images/dice${play1}.png`;
        document.getElementById(`check1`).setAttribute(`src`,playdice);
-
+       }
    </script>
 </body>
 </html>
