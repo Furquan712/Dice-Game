@@ -15,7 +15,8 @@ width: 70%; margin: auto; text-align: center;
 
 h1{
     margin: 30px;
-    font-size: 6 rem;
+    margin-top: 126px;
+    font-size: 80px;
     color: #f6b93b;
 }
 
@@ -28,6 +29,7 @@ button{
     background-color: #00b894;
     color: white;
     border: none;
+    border-radius: 20%;
 }
 img{
     width: 70%;
